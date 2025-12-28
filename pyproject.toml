@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "jira-ticketcreator"
 version = "0.1.0"
@@ -12,3 +16,11 @@ dependencies = [
     "pandas>=2.3.3",
     "pydantic>=2.12.5",
 ]
+
+
+[tool.setuptools]
+package-dir = {"" = "Jira_TicketCreator/src"}
+
+[tool.setuptools.packages.find]
+where = ["Jira_TicketCreator/src"]
+include = ["jira_formatter*"]
