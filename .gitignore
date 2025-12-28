@@ -8,7 +8,7 @@ __pycache__/
 
 # Raw data
 
-Jira_TicketCreator/data/raw/
+Jira_TicketCreator/data/raw/*.csv
 
 # Distribution / packaging
 .Python
