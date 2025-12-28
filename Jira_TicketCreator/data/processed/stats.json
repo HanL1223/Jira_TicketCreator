@@ -1,0 +1,15 @@
+{
+  "total_prepared": 518,
+  "by_project_key": {
+    "CSCI": 518
+  },
+  "by_issue_type": {
+    "Task": 477,
+    "Subtask": 33,
+    "Story": 8
+  },
+  "by_status": {
+    "Done": 507,
+    "Duplicate": 11
+  }
+}

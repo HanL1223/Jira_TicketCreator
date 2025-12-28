@@ -1,0 +1,14 @@
+[project]
+name = "jira-ticketcreator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.0",
+    "google>=3.0.0",
+    "google-genai>=1.56.0",
+    "google-generativeai>=0.8.6",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.5",
+]
