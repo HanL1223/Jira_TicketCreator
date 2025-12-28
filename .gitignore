@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Raw data
+
+Jira_TicketCreator/data/raw/
+
 # Distribution / packaging
 .Python
 build/
